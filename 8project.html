@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snitch Fashion Store.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f0f1;
+        }
+
+       
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(199, 153, 182);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            border: 5px solid rgb(56, 71, 58);
+            
+        }
+
+      
+        .left-buttons {
+            position: fixed;
+            top: 100px;
+            left: 0;
+            width: 180px;
+               display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px 10px;
+        }
+
+        .left-buttons a {
+            text-decoration: none;
+            background-color: #ffffff9c;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #cae4e5;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .left-buttons a:hover {
+            background-color: #1faeb0;
+            transform:  rotate(20deg) scale(1.05);
+        }
+
+       
+        .right-buttons {
+            position: fixed;
+            top: 120px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .right-buttons button {
+            background-color: rgb(58, 53, 53);
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .right-buttons button:hover {
+            background-color: #dcd9cf;
+            transform: rotate(20deg) scale(1.08);
+        }
+
+    
+        .main-content {
+            margin-left: 200px;
+            margin-top: 130px;
+            padding: 20px;
+        }
+
+        .content-box {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 5px solid #000000;
+            border-radius: 10px;
+           
+        }
+
+        .content-box h2 {
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .content-box p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="header">
+        Snitch Fashion {Made In India}
+    </div>
+
+    
+    <div class="left-buttons">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Children</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Reviews</a>
+    </div>
+
+   
+    <div class="right-buttons">
+        <button>Cart</button>
+        <button>Shop</button>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <div class="content-box">
+            <h2>Welcome to Snitch</h2>
+            <p>Discover SNITCH - India's leading online destination for men's fashion. Shop premium shirts, jeans, and more, crafted for the modern man</p>
+        </div>
+
+        <div class="content-box">
+            <h2>Nearby Stores</h2>
+            <p>Vaishali,Sodala,Kanota,Raja Park and Many More. #Razorpay #Snitch</p>
+        </div>
+
+        <div class="content-box">
+            <h2>What does snitch mean?</h2>
+            <p>Snitch is an insulting name for a person who informs the police or other authorities when others break the law or the rules. Snitch can refer to an informant who reports a crime or a tattletale who tells on someone, especially to their parents or loved one's</p>
+        </div>
+    </div>
+
+</body>
+</html>
